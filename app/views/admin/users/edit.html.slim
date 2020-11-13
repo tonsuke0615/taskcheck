@@ -1,0 +1,6 @@
+h1 つかうひとのへんしゅう
+
+.nav.justify-content-end
+  = link_to 'いちらん', admin_users_path, class: 'nav-link'
+
+= render partial: 'form', locals: { user: @user }
